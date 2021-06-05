@@ -1,0 +1,11 @@
+id|question
+11|Bạn cảm thấy dễ chịu nhất khi nào?
+12|Bạn thường bước đi:
+31|Khi nói chuyện với người khác, bạn:
+43|Khi nghỉ ngơi, bạn ngồi như thế nào?
+15|Khi ngạc nhiên thích thú, bạn phản ứng thế nào?
+26|Khi đi dự tiệc, bạn:
+17|Bạn đang làm việc và tập trung cao độ thì bị cắt ngang. Bạn:
+38|Bạn thích màu nào nhất trong các màu dưới đây?
+19|Khi đi ngủ, vào những phút cuối cùng trước khi ngủ, bạn nằm trong tư thế nào?
+18|Bạn thường mơ minh:

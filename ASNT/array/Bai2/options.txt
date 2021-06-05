@@ -1,0 +1,26 @@
+question_id|option_id|option|point
+11|a|Vào buổi sáng|2
+11|b|Vào buổi chiều và chớm tối|4
+11|c|Vào đêm muộn|6
+
+12|a|Khá nhanh với bước chân dài|6
+12|b|Khá nhanh với bước chân ngắn|4
+12|c|Không nhanh lắm, đầu ngẩng cao, hướng mặt ra cả thế giới|7
+12|d|Không nhanh lắm, đầu cúi xuống|2
+12|e|Rất chậm|1
+
+31|a|Đứng, khoanh tay|4
+31|b|Siết chặt hai bàn tay|2
+31|c|Đặt một hoặc cả hai tay lên hông|5
+31|d|Chạm hoặc đẩy người đối thoại|7
+31|e|Sờ tai, xoa cằm hoặc nghịch tóc|6
+
+43|a|Đầu gối cong, hai chân khép sát vào nhau|4
+43|b|Hai chân bắt chéo nhau|6
+43|c|Hai chân duỗi thẳng|2
+43|d|Khoanh chân|1
+
+15|a|Cười lớn|5
+15|b|Cười, nhưng không cười lớn|4
+15|c|Cười lặng lẽ|3
+15|d|Cười bẽn lẽn, ngượng ngùng|5
