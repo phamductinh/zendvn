@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EXE11</title>
+    <meta http-equiv="Content-Type" content="text/html;  charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/index.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="login-form">
+                <div id="form">
+                    <form action="process.html" onsubmit="return validateForm()" method="post" name="add-form" id="form-1">
+
+                        <div class="input-box">
+                            <input type="text" id="username" placeholder="Username" name="username" />
+                            <small><span class="form-message"></span></small>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="text" id="email" placeholder="Email" name="email" />
+                            <small><span class="form-message"></span></small>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="password" id="password" placeholder="Password" name="password" />
+                            <small><span class="form-message"></span></small>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="password" id="confirm_pass" placeholder="Confirm pass" name="password" />
+                            <small><span class="form-message"></span></small>
+                        </div>
+
+                        <div class="select-job">
+                            <select name="job">
+                            <option value="0">Choose a job</option>
+                            <option value="34">Sinh viên</option>
+                            <option value="46">Lập trình viên</option> 
+                            </select>
+                        </div>
+
+                        <div class="input-box">
+                            <br>
+                            <input type="text" id="website" placeholder="Website" name="website" />
+                            <small><span class="form-message"></span></small>
+                        </div>
+
+                        <div class="row">
+                            <div class="g-recaptcha" data-sitekey="6LcbSf0bAAAAAGNIUk5ZpCpYS8cO7J4KT8iYxk0m"></div>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="Sumit" name="submit" name="submit" />
+                        </div>
+                    </form>
+
+                    <script src='https://www.google.com/recaptcha/api.js'></script>
+                    <script src='validator.js'></script>
+                    <script>
+                        validator({
+                            form: '#form-1',
+                            errorSelector: '.form-message',
+                            rules: [
+                                validator.isRequired('#username'),
+                                validator.isEmail('#email'),
+                                validator.minLength('#password', 6),
+                                validator.isWebsite('#website'),
+                                validator.isConfirmed('#confirm_pass', function() {
+                                    return document.querySelector('#form-1 #password').value;
+                                })
+
+                            ]
+                        })
+                    </script>
+
+                </div>
+            </div>
+</body>
+
+</html>
